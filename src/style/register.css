@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.register {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form-register {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    width: 30%;
+    height: 85%;
+    
+}
+.form-register h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 30;
+    font-size: 50px;
+    margin-left: 20px;
+    text-align: center;
+}
+.form-register input{
+    height: 40px;
+    width: 90%;
+    border: none;
+    border-bottom: 1px solid #121619;
+    color: black;
+    margin-left: 15px;
+}
+.form-register label {
+    margin-top: 15px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    margin-left: 15px;
+}
+/* input::placeholder, textarea::placeholder{
+    font-weight: bold;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+form button{
+    margin-top: 40px;
+    width: 130px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    background-color: #121619;
+    color: whitesmoke;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace ;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+}
+.forgot-password{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px
+}
+/* register warning text */
+.notion-text{
+    color: rgb(190, 37, 40, 1);
+    margin-left: 15px;
+}

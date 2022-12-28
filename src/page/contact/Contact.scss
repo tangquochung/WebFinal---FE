@@ -1,0 +1,87 @@
+.contact {
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;          /* Likely future */
+
+    .spacer {
+        margin-top: 40px;
+      }
+      
+    .contact-form {
+        
+        width: 450px;
+        min-height: 100px;
+        margin: 50px auto;
+        border-radius: 10px;
+        box-shadow:  0 0 10px rgb(118, 131, 121);
+        padding: 32px 24px;
+        .title{
+            margin: 0;
+            padding: 0;
+            font-size: 2rem;
+            font-weight: 600;
+            text-align: center;
+            color: rgb(8, 92, 64);
+            font-family: "Open Sans", sans-serif;
+        }
+        .input-box {
+
+            .text {
+                opacity: .8;
+                font-weight: 640;
+                line-height: 1.8rem;
+                font-size: 1.4rem;
+                margin: 0;
+            }
+            .box {
+                height: 48px;
+                width: 100%;
+                padding: 8px 16px;
+                border: 1px solid #b3b3b3;
+                border-radius: 3px;
+                outline: none;
+                font-size: 1.4rem;
+                margin: 4px 0px 12px;
+            }
+            .box:hover {
+                border-color: #0b554e;
+            }
+            .message {
+                height: 96px;
+            }
+            
+
+        }
+
+        .submit-box {
+            margin-top: 50px;
+            
+            .btn {
+                display: flex;
+                align-items: center;
+                background-color: #053833;
+                margin-top: 12px;
+                padding: 0 50px;
+                font-weight: 600;
+                color: #fff;
+                border: none;
+                width: 35%;
+                font-size: 18px;
+                border-radius: 8px;
+                text-align: center;
+                p {
+                    align-items: center;
+                    
+                }
+
+                &:hover {
+                    cursor: pointer;
+                    background-color: rgb(91, 168, 132);
+                    color: white;
+                }
+
+            }
+        }
+    }
+}

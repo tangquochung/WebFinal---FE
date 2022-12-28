@@ -1,0 +1,69 @@
+.footer {
+    font-family: "Roboto","HelveticaNeue","Helvetica Neue",sans-serif;
+    height: 300px;
+    background-color: #131414;
+    color: white;
+    display: flex;
+    padding: 0 5%;
+    padding-top: 50px;
+    justify-content: space-between;
+    border-top: 2px solid white;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;          /* Likely future */
+
+    .footer__logo {
+
+        .footer__logo-img {
+            height: 200px;
+            margin-top:-20px
+        }
+    }
+
+    .footer__lienhe{
+        .footer__lienhe-title{
+            font-size: 26px;
+            margin-top:32px;
+        }
+    }
+    .footer__diachi{
+        .footer__diachi-title{
+            font-size: 26px;
+            margin-top:32px;
+        }
+
+    }
+    .footer__ketnoi{
+        .footer__ketnoi-title{
+            font-size: 26px;
+            margin-top: 32px;
+        }
+
+        .footer__ketnoi--icons{
+            font-size: 22px;
+            display: flex;
+            gap: 20px;
+
+            .fa {
+                height: 30px;
+                width: 30px;
+                text-align: center;
+                line-height: 30px;
+                border-radius: 50%;
+                border: 1px solid white;
+            }
+            .fa:hover {
+                background-color: #3a589d;
+                color: white;
+                cursor: pointer;
+                border: 1px solid #3a589d;
+
+            }
+        }
+    }
+    #no-line {
+        text-decoration: none;
+        color: white;
+    }
+}

@@ -1,0 +1,59 @@
+.about {
+  font-family: "Roboto","HelveticaNeue","Helvetica Neue",sans-serif;
+  background-attachment: fixed;
+  background-image: url(https://images.unsplash.com/photo-1615172282427-9a57ef2d142e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1206&q=80);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;          /* Likely future */
+  .empty {
+    height: 80vh;
+  }
+  .container {
+    background-color: rgb(253, 226, 201);
+    width: 100%;
+
+    .title {
+      text-align: center;
+      padding-top: 32px;
+    }
+    .list-group {
+        width: 100%;
+        margin: 0;
+        padding: 50px 0;
+          list-style: none;
+          display: flex;
+          flex-direction: row;
+          justify-content:  space-around;
+            
+
+          .item {
+            width: 250px;
+            margin: 0;
+             padding: 0;
+
+          .avatar {
+            width: 100%;
+            border-radius: 50%;
+            padding-bottom: 20px;
+          }
+          .name {
+            text-align: center;
+            font-size: 24px;
+          }
+          .role {
+            font-size: 16px;
+            text-align: center;
+            font-weight: 600;
+          }
+          p.desc {
+           padding-left: 40px;
+        }
+        }
+      }
+  }
+}

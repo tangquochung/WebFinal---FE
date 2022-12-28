@@ -1,0 +1,55 @@
+.Home {
+  min-height: 85vh;
+  background-color: #05060b;
+  position: relative;
+  .info {
+    position: absolute;
+    right: 250px;
+    top: 150px;
+    color: white;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;          /* Likely future */
+    .year {
+      color: #6c3;
+      font-size: 22px;
+      margin: 0;
+      font-weight: 500;
+    }
+    .name {
+      font-size: 46px;
+      margin: 0;
+      font-weight: 700;
+    }
+    .Sub-title {
+      font-size: 22px;
+      margin: 0;
+    }
+    .desc{
+        margin: 32px 0;
+        font-size: 20px;
+    }
+    .price {
+        font-size: 38px;
+        margin-top: 50px;
+        color: #1FFBEA;
+    }
+    .btn {
+        font-size: 38px;
+        background-color: rgb(240, 200, 69);
+        border-radius: 22px;
+        padding: 8px 16px;
+        // color: rgb(255, 89, 89);
+        margin: 32px 0  0 32px;
+        font-weight: 600;
+        color: rgb(255, 255, 255);
+        opacity: .8;
+
+        &:hover {
+            opacity: 1;
+            cursor: pointer;
+        }
+    }
+  }
+}

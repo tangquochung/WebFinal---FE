@@ -1,0 +1,17 @@
+.modal-body{
+    height: 400px;
+
+}
+
+.modal-user-container .input-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+.modal-user-container .input-container input{
+    border-radius: 3px;
+    height: 30px;
+    border: 1px solid grey;
+    padding: 0 10px;
+    outline-color: rgb(144, 181, 245);
+}

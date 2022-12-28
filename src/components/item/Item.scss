@@ -1,0 +1,14 @@
+
+.img-box {
+    height: 100px;
+    height: 200px;
+    .img {
+        width: 200px;
+
+    }
+}
+        
+.item:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+}

@@ -1,0 +1,14 @@
+.cart-item-media{
+    height: 260;
+}
+.cart-item-content{
+    display: flex;
+    justify-content: space-between;
+}
+.cartActions{
+    justify-content: space-between;
+}
+.actions-buttons{
+    display: flex;
+    align-items: center;
+}

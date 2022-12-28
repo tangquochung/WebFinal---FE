@@ -1,0 +1,160 @@
+.header {
+    font-family: "Roboto","HelveticaNeue","Helvetica Neue",sans-serif;
+    height: 70px;
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border-bottom: 2px solid white;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;          /* Likely future */
+    
+    .header__left {
+        flex: 1;
+
+        .header__left-logo {
+            height: 100px;
+        }
+    }
+    .header__mid {
+        flex: 1;
+        .header__mid-list {
+            display: flex;
+            list-style: none;
+            padding-top: 16px;
+            text-transform: uppercase;
+      
+                .header__mid-list__item {
+                    font-size: 20px;
+                    display: block;
+                    margin: 0 24px;
+                    font-weight: 500;
+                    text-decoration: none;
+                    color: white;
+                    border-bottom: 2px solid black;
+
+                    .header__mid-list__item-link{
+                        text-decoration: none;
+                        color: white;
+
+                    }
+    
+                }
+                .header__mid-list__item:hover {
+                    background-color: rgb(39, 61, 45);
+                    font-weight: 600px;
+                    padding: 0px 15px;
+                    border-radius: 5px;
+                    cursor: pointer;
+            
+            }
+            
+        }
+    
+    }
+    .header__right {
+        display: flex;
+        align-items: center;
+        flex: 1;
+
+        .fa-search{
+            margin: 0 16px;
+            font-size: 22px;
+            color: white;
+            border-radius: 50%;
+            padding: 8px;
+            
+            
+        }
+        .fa-search:hover {
+            color: white;
+            background-color: rgb(39, 61, 45);
+            font-weight: 600;
+            cursor: pointer;
+        }
+        .user{
+            position: relative;
+            cursor: pointer;
+            height: 70px;
+            .user-list{
+                display: none;
+                position: absolute;
+                left: -50px;
+                background-color: rgb(255, 255, 255);
+                box-shadow: 0 0 10px black;
+                color: black;
+                z-index: 1;
+                list-style: none;
+                width: 250px;
+                padding: 0;
+                margin: 0;
+                &::after {
+                    content: "";
+                    position: absolute;
+                    top: -30px;
+                    left: 0;
+                    height: 30px;
+                    width: 80%;
+                }
+
+                .user-list--item {
+                    font-size: 22px;
+                    .item-link {
+                    padding: 4px 8px;
+                    display: block;
+                        text-decoration: none;
+                        color: black;
+                        &:hover {
+                            background-color: #CCC;
+                        }
+                    }
+                    
+                }
+            }
+           
+            .fa-user {
+                line-height: 70px;
+            color: white;
+                margin: 0 32px;
+                font-size: 36px;
+                
+            }
+            &:hover .user-list {
+                display: block;
+            }
+           
+        }
+       
+        .header__right-btn {
+            font-size: 16px;
+            margin: 18px;
+            border: 1px solid;
+            border-radius: 16px;
+            padding: 6px;
+            color: white;
+            border-color: rgb(71, 71, 71);
+
+            position: relative;
+            .fa-shopping-bag {
+                margin-left: 8px;
+            }
+        }
+        .header__right-btn:hover {
+            color: rgb(244, 255, 245);
+            background-color:rgb(39, 61, 45);
+            cursor: pointer;
+        }
+        .header__right-btn::after {
+            content: "";
+            position: absolute;
+            width: 2px;
+            height: 100%;
+            background-color: #CCC;
+            top:0;
+            left: -20px;
+        }
+    }
+}
