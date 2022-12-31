@@ -2,7 +2,7 @@
 import axios from 'axios'
 import authHeader from './auth_header';
 
-const url = 'https://motorshop-85ou.onrender.com/' //api product
+const url = 'https://motorbikeshop-vewn.onrender.com/' //api product
 
 
 //function get product from api, return nhieu function

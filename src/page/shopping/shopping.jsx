@@ -9,7 +9,7 @@ function Shopping() {
   const [products, setProducts] = useState([]);
   useEffect(() => {
     axios
-      .get("https://motorshop-85ou.onrender.com/api/products")
+      .get("hhttps://motorbikeshop-vewn.onrender.com/api/products")
       .then((res) => {
         setProducts(res.data.products);
         console.log(res.data.products);
